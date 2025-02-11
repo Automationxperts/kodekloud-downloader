@@ -1,6 +1,7 @@
 # KodeKloud Downloader
 
 ## Disclaimer
+
 Please read the following disclaimer carefully before using the Downloader CLI Tool.
 
 - The CLI Tool is intended for personal use only. By using this tool, you agree to use it at your own risk and assume full responsibility for any consequences that may arise from its use. The developers and contributors of this tool are not responsible for any damages or losses that may occur from its use.
@@ -36,23 +37,23 @@ FFmpeg is a powerful and flexible multimedia processing tool that can handle a w
 
 ### Ubuntu and Debian-based distributions
 
-1.  Update the package lists for upgrades and new package installations.
+1. Update the package lists for upgrades and new package installations.
 
 `sudo apt update`
 
-1.  Install FFmpeg using the following command:
+1. Install FFmpeg using the following command:
 
 `sudo apt install ffmpeg`
 
 ### Fedora
 
-1.  Install FFmpeg using the following command:
+1. Install FFmpeg using the following command:
 
 `sudo dnf install ffmpeg`
 
 ### Arch Linux and Manjaro
 
-1.  Install FFmpeg using the following command:
+1. Install FFmpeg using the following command:
 
 `sudo pacman -S ffmpeg`
 
@@ -66,7 +67,7 @@ Update Homebrew to ensure you have the latest package information:
 
 `brew update`
 
-1.  Install FFmpeg using the following command:
+1. Install FFmpeg using the following command:
 
 `brew install ffmpeg`
 
@@ -78,7 +79,7 @@ Update MacPorts to ensure you have the latest package information:
 
 `sudo port selfupdate`
 
-1.  Install FFmpeg using the following command:
+1. Install FFmpeg using the following command:
 
 `sudo port install ffmpeg`
 
@@ -108,9 +109,8 @@ This will display the FFmpeg version and build information, confirming that the 
 
 </details>
 
-
-
 ## How to get cookie
+
 - Sign in to kodekloud.com
 - Download extension such as [Get cookies.txt LOCALLY](https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc/related)
 - Download the cookie and save it in some location (You can name it something like `cookie.txt`).
@@ -126,11 +126,13 @@ pip install -U kodekloud-downloader
 ```
 
 You can also install the latest main changes:
+
 ```console
-pip install -U git+https://github.com/debakarr/kodekloud-downloader.git
+pip install -U git+https://github.com/Automationxperts/kodekloud-downloader.git
 ```
 
 ## Try in Browser
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GsgFcqa_43GYeDKmoa0CXsRfDySrzvzT?usp=sharing)
 
 ## 📚 Usage
